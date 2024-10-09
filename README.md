@@ -1,22 +1,40 @@
-# Tailwindcss Example
+# LunaSol: A Phaser 3 Game
 
-Integrate Remix with tailwindcss.
+A simple parallax scrolling game created using Phaser 3. In this game, an astronaut can walk, and run across a moon surface with a parallax background featuring stars and the Earth.
 
-## Preview
+## Features
 
-Open this example on [CodeSandbox](https://codesandbox.io/s/remix-tailwind-2x8pg):
+- **Parallax Scrolling**: Stars and moon surface move at different speeds to create a parallax effect.
+- **Character Movement**: The astronaut can walk, run, and jump, with smooth animations for each action.
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/remix-run/examples/tree/main/tailwindcss)
+## Features to be added
 
-## Example
+- **Collision Handling**: The astronaut collides with the moon surface and cannot leave the bounds of the game world.
+- **Jump Mechanic**: The astronaut can only jump when standing on the moon surface and falls back down with gravity.
 
-This example shows how to use Tailwind CSS (v3.0) with Remix. It's using Vite's built-in PostCSS support.
+## Getting Started
 
-Relevant files:
+### Prerequisites
 
-- [tailwind.config.ts](./tailwind.config.ts) where tailwind is configured.
-- [app/root.tsx](./app/root.tsx) where tailwind is imported.
+Before running the project, ensure you have the following installed:
 
-## Related Links
+- [Node.js](https://nodejs.org/)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension in VSCode
 
-[Tailwind CSS](https://tailwindcss.com)
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/moon-parallax-game.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd moon-parallax-game
+   ```
+
+3. **Run the project:**
+
+   Download the live-server extension in your vscode and hit "Go Live".
